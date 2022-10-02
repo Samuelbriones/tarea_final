@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIOS DE ALGORITMO</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="bg-5">
+        <h1 class="animated-shadow">CALCULADORA</h1>
+    </div>
+    <div class="bor1">
+        <table class="resp">
+            <tr class="textarea">
+                <td colspan="5" ><input type="text" id="num" ></td> 
+            </tr>
+            <tr>
+                <td> <button class="buton1" onclick="cal.divisores()"> Divisores</button></td>
+                <td> <button class="buton1" onclick="cal.inverti()"> Invertir</button></td>
+                <td> <button class="buton1" onclick="cal.primo()"> Primo</button></td>
+                <td> <button class="buton1" onclick="cal.perfecto()"> Perfecto</button></td>
+                <td> <button class="buton1" onclick="cal.fibonacci()"> fibonacci</button></td>
+            </tr>
+            <tr>
+                <td> <button class="buton1" onclick="cal.base10_2()"> de Base 10 a 2 </button></td>
+                <td> <button class="buton1" onclick="cal.base10_16()"> de Base 10 a 16</button></td>
+                <td> <button class="buton1" onclick="cal.base10_8()"> de  Base 10 a 8</button></td>
+                <td> <button class="buton1" onclick="cal.base2_10()"> de Base 2 a 10</button></td>
+                <td> <button class="buton1" onclick="cal.base2_16()"> de Base 2 a 16</button></td>
+            </tr>
+            <tr>
+                <td> <button class="buton1" onclick="cal.contarpalabra()"> Contar palabras</button></td>
+                <td> <button class="buton1" onclick="cal.polindroma()"> palabra Polindroma</button></td>
+                <td> <button class="buton1" onclick="cal.invertirfrase()"> Invertir frase </button></td>
+                <td> <button class="buton1" onclick="cal.contarcaracter()"> Contar caracter</button></td>
+                <td> <button class="buton1" onclick="cal.buscarcadena()"> Buscar cadena</button></td>
+            </tr>
+            <tr>
+                <td> <button class="buton1" onclick="cal.mayorarreglo()"> Mayor arreglo</button></td>
+                <td> <button class="buton1" onclick="cal.promedio()"> Promedio arreglo</button></td>
+                <td> <button class="buton1" onclick="cal.buscar()"> Buscar arreglo</button></td>
+                <td> <button class="buton1" onclick="cal.eliminar()"> Eliminar  arreglo</button></td>
+                <td> <button class="buton1" onclick="cal.insertar()"> Insertar arreglo</button></td>
+            </tr>
+            <tr><td colspan="1"><button class="button2"  onclick="cal.limpiar()" id="num">limpiar</button></td></tr>
+        </table>
+        
+    </div>
+
+    <script src="./ejercicios.js"></script>
+</body>
+</html>
